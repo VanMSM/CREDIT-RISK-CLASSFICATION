@@ -23,7 +23,7 @@ For both cases, I got the count of the target classes, trained a logistic regres
 
 This project is written in Python with the following packages:
 
-* imbalance-learn
+* imbalanced-learn
 * PyDotPlus
 * Numpy
 * Pandas
@@ -43,7 +43,7 @@ pip install pandas
 pip install numpy
 ```
 
-*  Imbalance Learn using Conda. Best practice, use an environment rather than install in the base env
+*  Imbalanced Learn using Conda. Best practice, use an environment rather than install in the base env
 
 ```python
 conda activate dev
