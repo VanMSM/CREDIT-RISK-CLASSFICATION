@@ -44,7 +44,7 @@ conda install -c conda-forge imbalanced-learn
 conda list imbalanced-learn
 ```
 
-*  PyDotPlus u
+*  PyDotPlus using Conda. Best practice, use an environment rather than install in the base env
 
 ```python
 conda activate dev
