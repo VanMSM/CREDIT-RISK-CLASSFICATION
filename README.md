@@ -2,7 +2,7 @@
 
 A SUPERVISED LEARNING PROJECT
 
-Background:
+## Background
 
 Credit risk poses a classification problem that’s inherently imbalanced. This is because healthy loans easily outnumber risky loans. In this projecct, I used  various techniques to train and evaluate models with imbalanced classes. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
@@ -59,7 +59,7 @@ warnings.filterwarnings('ignore')
 ```
 
 
-** CLONE TO YOUR REPO AND RUN
+* CLONE TO YOUR REPO AND RUN
 
 ---
 
