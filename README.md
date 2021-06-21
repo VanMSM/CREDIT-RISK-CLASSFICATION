@@ -10,6 +10,11 @@ Using imbalanced-learn library, I used a logistic regression model to compare tw
 
 For both cases, I got the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and lastly, generated a classification report.
 
+## Project Report
+
+* [Overview of the Analysis, Report and Summary]
+
+
 ---
 
 ## Technologies
