@@ -33,7 +33,7 @@ pip install pandas
 ```
 * Numpy from PyPI
 ```python
-pip install pandas
+pip install numpy
 ```
 
 *  Imbalance Learn using Conda. Best practice, use an environment rather than install in the base env
