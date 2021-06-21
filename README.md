@@ -44,7 +44,7 @@ conda install -c conda-forge pydotplus
 conda list imbalanced-learn
 ``` 
 
-Import the Modules
+Next, Import the Modules
 
 ```python
 import numpy as np
@@ -58,8 +58,7 @@ import warnings
 warnings.filterwarnings('ignore')
 ```
 
-
-* CLONE TO YOUR REPO AND RUN
+Clone to your repo and run
 
 ---
 
