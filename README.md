@@ -27,11 +27,11 @@ This project is written in Python with the following packages:
 
 Before running the application first install and verify the following dependencies:
 
-* Pandas from PYPI
+* Pandas from PyPI
 ```python
 pip install pandas
 ```
-* Numpy from PYPI
+* Numpy from PyPI
 ```python
 pip install pandas
 ```
