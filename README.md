@@ -56,7 +56,7 @@ conda list imbalanced-learn
 ```python
 conda activate dev
 conda install -c conda-forge pydotplus
-conda list imbalanced-learn
+conda list pydotplus
 ``` 
 
 Next, Import the Modules
