@@ -1,7 +1,7 @@
 # CREDIT RISK CLASSFICATION ANALYSIS
 
 A SUPERVISED LEARNING PROJECT
-
+___
 
 ![good-loan-vs-bad-loan_orig](https://user-images.githubusercontent.com/80144026/131237684-163a86bc-e6c5-470a-ac7a-4060141e9c2d.jpg)
 
@@ -12,7 +12,8 @@ ___
 ## OVERVIEW OF THE ANALYSIS
 
 Credit risk poses a classification problem that’s inherently imbalanced. This is because healthy loans easily outnumber risky loans. In this project, I used  various techniques to train and evaluate models with imbalanced classes. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
-___
+
+---
 
 ### FINANCIAL INFORMATION
 
@@ -26,13 +27,13 @@ I used a historical dataset that includes the following:
 * Total Debt
 * Loan Status
 
-___
+---
 
 ### WHAT THE MODEL IS PREDICTING
 
 The model is created to predict the healthy loans versus the high risk loans to better identify the credit worthiness of customers.
 
-___
+---
 
 ### STAGES OF MACHINE LEARNING:
 
@@ -48,7 +49,6 @@ ___
  * For both cases, I got the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and lastly, generated a classification report.
 
 ---
-
 ### RESULTS
 
 ### Machine Learning Model 1: Classification Report using Original Data
@@ -67,9 +67,8 @@ ___
   * The Balanced Accuracy Score is 99.4 %, which means it detected true positives versus true negatives at 99.4% accuracy rate.
   * The precision score for '0' (healthy loans) is a perfect 1.0, recall is .99 and F1, another perfect score of 1.0 . As for the '1' (high-risk loans) precision score is .85, recall score of 1.0 and F1 score of .99. This shows that this model also performed better at predicting the healthy loans.
    
-____   
+---   
   
-
 ### SUMMARY
 
 The results regarding the accuracy of the prediction for healthy loans vs high risk loans is better with the oversampled data. The accuracy score results for the model fit with oversampled data is 99.46% versus 94.8% with the model fit with the original data. This means that the former is better at detecting true positives and true negatives.
