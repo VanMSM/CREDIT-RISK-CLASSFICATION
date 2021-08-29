@@ -36,11 +36,11 @@ ___
 
 ### STAGES OF MACHINE LEARNING:
 
-### Split the Data into Training and Testing Sets
+### 1. Split the Data into Training and Testing Sets
 
-### Created a Logistic Regression Model with the Original Data
+### 2. Created a Logistic Regression Model with the Original Data
 
-### Predict a Logistic Regression Model with Resampled Training Data 
+### 3. Predict a Logistic Regression Model with Resampled Training Data 
 
 
 * I used a logistic regression model to compare two versions of the dataset. First, I used the original dataset. Second, I resampled the data by using the RandomOverSampler module from the imbalanced-learn library.
