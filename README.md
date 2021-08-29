@@ -1,20 +1,52 @@
-# CREDIT RISK CLASSFICATION
+# CREDIT RISK CLASSFICATION ANALYSIS
 
 A SUPERVISED LEARNING PROJECT
+___
 
-## Background
+## OVERVIEW OF THE ANALYSIS
 
 Credit risk poses a classification problem that’s inherently imbalanced. This is because healthy loans easily outnumber risky loans. In this project, I used  various techniques to train and evaluate models with imbalanced classes. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+___
 
-Using imbalanced-learn library, I used a logistic regression model to compare two versions of the dataset. First, I used the original dataset. Second, I resampled the data by using the RandomOverSampler module from the imbalanced-learn library.
+### FINANCIAL INFORMATION
+
+I used a historical dataset that includes the following:
+* Loan Size
+* Interest Rate
+* Borrower Income
+* Debt to Income
+* Number of Accounts 
+* Derogatory Marks
+* Total Debt
+* Loan Status
+
+___
+
+### WHAT THE MODEL IS PREDICTING
+
+The model is created to predict the healthy loans versus the high risk loans to better identify the credit worthiness of customers.
+
+___
+
+### STAGES OF MACHINE LEARNING:
+
+* Split the Data into Training and Testing Sets
+
+* Created a Logistic Regression Model with the Original Data
+
+* Predict a Logistic Regression Model with Resampled Training Data 
+
+
+I used a logistic regression model to compare two versions of the dataset. First, I used the original dataset. Second, I resampled the data by using the RandomOverSampler module from the imbalanced-learn library.
 
 For both cases, I got the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and lastly, generated a classification report.
 
 ---
 
-## Project Report
+### RESULTS
 
-* [Overview of the Analysis, Report and Summary]
+<img width="782" alt="Screen Shot 2021-08-28 at 8 27 56 PM" src="https://user-images.githubusercontent.com/80144026/131237298-1ccfc1b8-d4a4-4b8e-a49c-6d7a359b9eaa.png">
+
 
 
 ---
